@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseRentingSystem.Web", "HouseRentingSystem.Web.csproj", "{87AA5105-72F2-4260-A162-18358A4C3F9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HouseRentingSystem.Web", "HouseRentingSystem.Web.csproj", "{87AA5105-72F2-4260-A162-18358A4C3F9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseRentingSystem.Common", "..\HouseRentingSystem.Common\HouseRentingSystem.Common.csproj", "{7DD7D531-EE39-4781-8EFB-74D6223CCE0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{87AA5105-72F2-4260-A162-18358A4C3F9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87AA5105-72F2-4260-A162-18358A4C3F9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87AA5105-72F2-4260-A162-18358A4C3F9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DD7D531-EE39-4781-8EFB-74D6223CCE0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DD7D531-EE39-4781-8EFB-74D6223CCE0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DD7D531-EE39-4781-8EFB-74D6223CCE0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DD7D531-EE39-4781-8EFB-74D6223CCE0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

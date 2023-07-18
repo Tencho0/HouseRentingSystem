@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - HouseRentingSystem.Web</title>
+    <title>@ViewData["Title"] - House Renting Worldwide</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/HouseRentingSystem.Web.styles.css" asp-append-version="true" />
@@ -40,7 +40,7 @@
         <div class="container">
             @if (DateTime.UtcNow.Year != ReleaseYear)
             {
-                
+                @Html.Raw($" - {DateTime.UtcNow.Year}")
             }
             &copy; House Renting System 2023 - @DateTime.UtcNow.Year
         </div>

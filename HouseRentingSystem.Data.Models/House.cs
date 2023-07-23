@@ -1,17 +1,17 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace HouseRentingSystem.Data.Models
+﻿namespace HouseRentingSystem.Data.Models
 {
     using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
+    using System.ComponentModel.DataAnnotations;
 
     using static Common.EntityValidationConstants.House;
 
     public class House
     {
+        public House()
+        {
+            this.Id = Guid.NewGuid();
+        }
+
         [Key]
         public Guid Id { get; set; }
 

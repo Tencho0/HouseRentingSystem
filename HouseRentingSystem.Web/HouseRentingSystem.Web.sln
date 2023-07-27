@@ -15,7 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HouseRentingSystem.Data", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HouseRentingSystem.Data.Models", "..\HouseRentingSystem.Data.Models\HouseRentingSystem.Data.Models.csproj", "{624425AB-72B1-4784-8B87-A5B4F3A05314}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseRentingSystem.Web.ViewModels", "..\HouseRentingSystem.Web.ViewModels\HouseRentingSystem.Web.ViewModels.csproj", "{21FE22FF-A411-4E6D-9BD9-75F0E27D66C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HouseRentingSystem.Web.ViewModels", "..\HouseRentingSystem.Web.ViewModels\HouseRentingSystem.Web.ViewModels.csproj", "{21FE22FF-A411-4E6D-9BD9-75F0E27D66C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{1094638C-B693-45A5-80CC-1C09762608BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseRentingSystem.Services.Data", "..\HouseRentingSystem.Services.Data\HouseRentingSystem.Services.Data.csproj", "{69CF3BA1-B061-4701-B24A-4920A971C4BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseRentingSystem.Web.Infrastructure", "..\HouseRentingSystem.Web.Infrastucture\HouseRentingSystem.Web.Infrastructure.csproj", "{55B877B7-CB15-434F-B10D-0D56C0D8A4CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +49,14 @@ Global
 		{21FE22FF-A411-4E6D-9BD9-75F0E27D66C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21FE22FF-A411-4E6D-9BD9-75F0E27D66C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21FE22FF-A411-4E6D-9BD9-75F0E27D66C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69CF3BA1-B061-4701-B24A-4920A971C4BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69CF3BA1-B061-4701-B24A-4920A971C4BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69CF3BA1-B061-4701-B24A-4920A971C4BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69CF3BA1-B061-4701-B24A-4920A971C4BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55B877B7-CB15-434F-B10D-0D56C0D8A4CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55B877B7-CB15-434F-B10D-0D56C0D8A4CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55B877B7-CB15-434F-B10D-0D56C0D8A4CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55B877B7-CB15-434F-B10D-0D56C0D8A4CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +66,8 @@ Global
 		{90378109-B0F9-47D8-877D-B6BEDE2A6267} = {8D013915-9BDE-4E27-9806-2504AD0E9827}
 		{624425AB-72B1-4784-8B87-A5B4F3A05314} = {8D013915-9BDE-4E27-9806-2504AD0E9827}
 		{21FE22FF-A411-4E6D-9BD9-75F0E27D66C1} = {81D50735-2381-450C-A8A8-0110398EAB31}
+		{69CF3BA1-B061-4701-B24A-4920A971C4BE} = {1094638C-B693-45A5-80CC-1C09762608BF}
+		{55B877B7-CB15-434F-B10D-0D56C0D8A4CC} = {81D50735-2381-450C-A8A8-0110398EAB31}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C4725384-DE50-44F0-A114-15A9CDA801E1}

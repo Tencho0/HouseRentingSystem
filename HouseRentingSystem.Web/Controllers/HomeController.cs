@@ -4,15 +4,22 @@
     using Microsoft.AspNetCore.Mvc;
 
     using ViewModels.Home;
+    using HouseRentingSystem.Services.Data.Interfaces;
 
     public class HomeController : Controller
     {
-        public HomeController()
-        { }
-
-        public IActionResult Index()
+        private readonly IHouseService houseService;
+        public HomeController(IHouseService houseService)
         {
-            return View();
+            this.houseService = houseService;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            IEnumerable<IndexViewModel> viewModel =
+                await this.houseService.LastThreeHousesAsync();
+
+            return View(viewModel);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

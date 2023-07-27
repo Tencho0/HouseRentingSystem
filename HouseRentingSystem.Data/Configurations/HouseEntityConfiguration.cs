@@ -9,9 +9,10 @@
     {
         public void Configure(EntityTypeBuilder<House> builder)
         {
-            //builder
-            //    .Property(h => h.CreatedOn)
-            //    .HasDefaultValueSql("GETDATE()");
+            builder
+                .Property(h => h.CreatedOn)
+                .HasDefaultValue(DateTime.UtcNow);
+                //.HasDefaultValueSql("GETDATE()");
 
             //builder
             //    .Property(h => h.IsActive)
